@@ -8,6 +8,8 @@ import Compteurs from "./components/Compteurs";
 import Selecteurs from "./components/Selecteurs";
 import Configurator from "./components/Configurator";
 import InputsDemo from "./components/InputsDemo";
+import Converters from "./components/Converters";
+import Converters2 from "./components/Converters2";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +20,8 @@ ReactDOM.render(
         <Route path="selecteurs" element={<Selecteurs />} />
         <Route path="configurateur" element={<Configurator />} />
         <Route path="inputsdemo" element={<InputsDemo />} />
+        <Route path="converters" element={<Converters />} />
+        <Route path="converters2" element={<Converters2 />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
