@@ -7,6 +7,7 @@ import App from "./App";
 import Compteurs from "./components/Compteurs";
 import Selecteurs from "./components/Selecteurs";
 import Configurator from "./components/Configurator";
+import InputsDemo from "./components/InputsDemo";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
         <Route path="compteurs" element={<Compteurs />} />
         <Route path="selecteurs" element={<Selecteurs />} />
         <Route path="configurateur" element={<Configurator />} />
+        <Route path="inputsdemo" element={<InputsDemo />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
